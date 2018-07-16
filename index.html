@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal</title>
+    <!--title旁边图标的引入-->
+    <link rel="icon" href="img/bitbug_favicon.ico" type="image/x-icon"/>
+    <!---->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/person.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- bootstrap.js是依赖于jquery.js的 -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!-- 顶部导航开始 -->
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="title">Andy He</div>
+                <div class="nav">
+                    <a href="#Home" class="text">HOME</a>
+                    <a href="#Introduce" class="text">简介</a>
+                    <a href="#Skill" class="text">技术</a>
+                    <a href="#Resume" class="text">简历</a>
+                    <a href="#" class="text">项目</a>
+                    <a href="#Contact" class="text">CAL ME</a>
+                    <!-- 按钮 下拉框 -->
+                    <div class="list btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Info <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#Introduce">简介</a></li>
+                            <li><a href="#Skill">技术</a></li>
+                            <li><a href="#">项目</a></li>
+                            <li><a href="#Resume">简历</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#Contact">CAL ME</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner块 -->
+    <div class="banner" id="Home">
+        <div class="container">
+            <div class="row">
+                <div class="home col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 animated bounceInDown">
+                    <p>山西大学</p>
+                    <h2>贺嘉华</h2>
+                    <h3>2016年开始第一份工作--软件工程专业</h3>
+                    <p class="by">By <span>Personal</span></p>
+                    <p class="to"><a href="#" class="link-button">Web前端工程师</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- introducing个人介绍 -->
+    <div class="Introduce-content" id="Introduce">
+        <div class="container">
+            <div class="Intro-title">
+                <p id="IntTitle" class="animated">WELCOME TO PersonalPage</p>
+                <p class="desc animated">
+                    大家好,我是贺嘉华，目前正在找工作，虽然有一点艰辛，但我感觉这种感觉还不错，因为我觉得在年轻的季节吃苦受累，通过自己积极主动的努力实现自身价值是一件很有意义,也不会让我后悔的事情，以后回忆起这段时光，也会是一段非常珍贵的记忆。工作方面，作为一个拥有超两年半工作经验者，我在不断地追求做到最好,并且通过自己的努力，将自我介绍通过网页形式向大家展示出来，这是一种自我能力的认可，很满足，也很开心，下面是我这段时间以来的工作项目，请各位欣赏。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- MY SKILL我的技能 -->
+    <div class="Skill-content" id="Skill">
+        <div class="container">
+            <div class="Skill-title">MY SKILL</div>
+            <p class="Skill-det">熟练掌握的各种技术以及以后要学习的技术</p>
+            <div class="row">
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-comment col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>超文本标记语言</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-leaf col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>层叠样式表</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>响应式布局</h3>
+                        <p>兼容不同屏幕尺寸下的布局</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>轻量级的编程语言</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-tags col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>JQuery</h3>
+                        <p>一个 JavaScript 函数库</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-send col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>Animate.css</h3>
+                        <p>跨浏览器的css3动画库</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-tags col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>PHP</h3>
+                        <p>通用开源脚本语言,适用于Web开发领域</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>MYSQL</h3>
+                        <p>后台数据库</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>Apache</h3>
+                        <p>世界使用排名第一的Web服务器软件</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-eye-open col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>Node.js</h3>
+                        <p>基于Chrome JavaScript运行时建立的一个平台</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>Vue</h3>
+                        <p>用于构建用户界面的渐进式框架</p>
+                    </div>
+                </div>
+                <div class="Skill-list col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                    <div class="List-con">
+                        <div class="row">
+                            <span class="glyphicon glyphicon-fire col-xs-2 col-xs-offset-5"></span>
+                        </div>
+                        <h3>微信小程序</h3>
+                        <p>可以在微信内被便捷地获取和传播</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My Details -->
+    <div class="Details-Bj" id="Resume">
+        <div class="Details-content">
+            <div class="container">
+                <div class="Details-title">My RESUME</div>
+                <div class="row">
+                    <div class="Details-list col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+                        <div class="row">
+                            <div class="list-pic col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-0">证书</div>
+                            <div class="list-con col-xs-12 col-sm-9 col-sm-offset-1">
+                                <p>ACAA Web全栈工程师认证</p>
+                                <p>中国大学生计算机设计大赛山西省赛三等奖</p>
+                                <p>CET_4</p>
+                                <p>优秀社团负责人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Details-list col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+                        <div class="row">
+                            <div class="list-pic col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-0">联系</div>
+                            <div class="list-con col-xs-12 col-sm-9 col-sm-offset-1">
+                                <p>邮箱: jiahua18998@163.com</p>
+                                <p>电话: 15735105253</p>
+                                <p>现居地: 北京</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Details-list col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+                        <div class="row">
+                            <div class="list-pic col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-0">经验</div>
+                            <div class="list-con col-xs-12 col-sm-9 col-sm-offset-1">
+                                <p>公司名称:</p>
+                                <p>山西信诚电子商务责任有限公司</p>
+                                <p>工作时间:</p>
+                                <p>2016.03---2018.10</p>
+                                <p>工作职位: 全栈工程师</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Details-list col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+                        <div class="row">
+                            <div class="list-pic col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-0">兴趣</div>
+                            <div class="list-con col-xs-12 col-sm-9 col-sm-offset-1">
+                                <p>打羽毛球、乒乓球、台球...</p>
+                                <p>演讲、专研心理书籍...</p>
+                                <p>钓鱼、绘画、书法...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact-content" id="Contact">
+        <div class="contact-title">C o n t a c t</div>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address 邮箱地址</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name 姓名</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Message 备注信息</label>
+                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">File input 传输文件</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Check me out
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- NODE 底部信息 -->
+    <div class="node-bj">
+        <div class="node-content">
+            <div class="container">
+                <div class="row">
+                    <div class="node-con col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing.
+                    </div>
+                    <div class="node-btn col-xs-2 col-xs-offset-5 col-sm-3 col-sm-offset-1">
+                        <a class="back-to-top" href="#top">
+                            <button type="button" class="btn btn-warning btn-lg"> BACK TOP </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 声明版权所有 -->
+    <div class="fooler">
+        <div class="container">
+            <p>Copyright © 2016.Company name All rights reserved.More Contact  <span>多多联系</span> - Collect from <span>贺嘉华主页</span></p>
+        </div>
+    </div>
+    <!-- 练习 -->
+    <div class="container" style="display: none">
+        <div class="row">
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">1</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">2</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">3</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">4</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">5</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">6</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">7</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">8</div>
+            </div>
+            <div class="box col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0  col-lg-3 col-md-4">
+                <div class="son">9</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    // 监听滚动条
+
+    $(window).scroll(function(){
+        let topIntHeight=$("#Introduce").offset().top;
+        // console.log(topIntHeight)
+        let topDescHeight=$(".Intro-title>.desc").offset().top;
+        // 获取滚动的高度
+
+        var scrollHeight=$(window).scrollTop();
+        // console.log(scrollHeight);
+        // 判断高度
+        if (scrollHeight < 50 && $("#IntTitle").hasClass("bounceInLeft")) {
+            $("#IntTitle").removeClass("bounceInLeft");
+        }
+        if (scrollHeight < 50 && $(".Intro-title>.desc").hasClass("rubberBand")) {
+            $(".Intro-title>.desc").removeClass("rubberBand");
+        }
+        if (scrollHeight > topIntHeight-200){
+            $("#IntTitle").addClass("bounceInLeft");
+        }
+        if (scrollHeight > topIntHeight+150) {
+            $("#IntTitle").removeClass("bounceInLeft");
+        }
+        if (scrollHeight > topDescHeight-195){
+            $(".Intro-title>.desc").addClass("rubberBand");
+        }
+        if (scrollHeight > topDescHeight+150) {
+            $(".Intro-title>.desc").removeClass("rubberBand");
+        }
+    })
+</script>
